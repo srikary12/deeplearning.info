@@ -15,3 +15,22 @@
 - Bivariate - linear regression data: We plot relationship between income, age and experience and observe no clear reationship between age and income. So we go ahead and work with experience and income columns.
 
 ### Will keep on updating as we proceed
+
+## Univariate analysis
+
+### Numerical Data
+
+- Histograms: Observe data skew and outliers
+- Distplot: Histogram with a probability distribution curve
+- Boxplot: Used to identify mean, median. Can also help in identifying skew
+
+### Categorical Data
+
+- Count Plot: Count the values belonging to each category
+- Pie Chart: Helps visually identify percentage of categorical data
+
+## Multivariate Analysis
+
+- Scatter Plot: Identify relationships
+- Bar plot: Identify data rellationships
+

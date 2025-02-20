@@ -41,7 +41,7 @@ From the image we can observe that income is dependent on experience.
     ```py
     import numpy as np
     class linearRegressor:
-        def __init__(self) -> None:
+        def __init__(self):
             self.w = 0.3 
             self.b = 0.4
 
