@@ -34,7 +34,7 @@ plt.subplot(2,1,2)
 plt.plot(df["age"], df["income"], 'ro')
 plt.show()
 ```
-![Plot showing data](img\linear reg\eda.png)
+![Plot showing data](img/linear_reg/eda.png)
 
 From the image we can observe that income is dependent on experience.
 === "Python"
@@ -79,14 +79,14 @@ From the image we can observe that income is dependent on experience.
     plt.ylabel('Loss')
     plt.show()
     ```
-    ![Losses bs iterations](img\linear reg\loss.png)
+    ![Losses bs iterations](img/linear_reg/loss.png)
 
     ```
     plt.plot(df["experience"], df["income"], 'ro')
     plt.plot(X_train, y_pred, color = "g")
     plt.show()
     ```
-    ![Predictions](img\linear reg\pred.png)
+    ![Predictions](img/linear_reg/pred.png)
 
 === "sklearn"
     ```py
@@ -108,7 +108,7 @@ From the image we can observe that income is dependent on experience.
     plt.plot(X_train, y_pred, color="blue", linewidth=3)
     plt.show()
     ```
-    ![scikit learn prediction](img\linear reg\pred-sklearn.png)
+    ![scikit learn prediction](img/linear_reg/pred-sklearn.png)
 
 === "Pytorch"
     ```py
@@ -145,7 +145,7 @@ From the image we can observe that income is dependent on experience.
     plt.legend(loc='best')
     plt.show()
     ```
-    ![pytorch prediction](img\linear reg\pred-pytorch.png)
+    ![pytorch prediction](img/linear_reg/pred-pytorch.png)
 
 
 ## When does linear regression fail?
